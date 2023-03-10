@@ -1,2 +1,5 @@
 [context.rama_1.environment]
   MY_APP_VERSION = "wololoooooooooooooo"
+
+[build]
+  MY_APP_VERSION = "wololoooooooooooooo"
