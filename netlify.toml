@@ -1,8 +1,8 @@
 [context.rama_1.environment]
-  MY_APP_VERSION = "wololoooooooooooooocontext"
+  MY_APP_VERSION = "wololoooooooooooooocontext2"
 
 [dev.environment]
-  MY_APP_VERSION = "wololoooooooooooooodev"
+  MY_APP_VERSION = "wololoooooooooooooodev2"
 
 [build]
-  MY_APP_VERSION = "wololoooooooooooooobuild"
+  MY_APP_VERSION = "wololoooooooooooooobuild2"
