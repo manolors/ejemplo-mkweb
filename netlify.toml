@@ -6,6 +6,3 @@
 
 [build]
   MY_APP_VERSION = "wololoooooooooooooobuild"
-
-[[plugins]]
-  package = "netlify-plugin-bundle-env"
