@@ -7,6 +7,9 @@ const base = mode === "production" && isGitHubPages ? "/" + folderName : "/";
 const noMinify = isNetlify && mode !== "production"
 const minify = noMinify ?   { minify: false, minifySyntax: false } : {};
 
+console.log("mode ->", mode)
+console.log("minify->", minify)
+
 export default {
   root: "src",
   base,
