@@ -8,6 +8,8 @@ const base = mode === "production" && isGitHubPages ? "/" + folderName : "/";
 const isNetlify = process.env.NETLIFY || false;
 const minify = isNetlify && mode === "production"
 
+console.log("nODE VERSION:", import.meta.env.NODE_ENV);
+console.log("APP VERSION:", import.meta.env.MY_APP_VERSION);
 export default {
   root: "src",
   base,
