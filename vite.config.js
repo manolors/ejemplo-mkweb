@@ -4,8 +4,8 @@ const isNetlify = process.env.NETLIFY || false;
 const folderName = path.basename(process.cwd()) + "/";
 const mode = process.env.NODE_ENV === "production" ? "production" : "development";
 const base = mode === "production" && isGitHubPages ? "/" + folderName : "/";
-const noMinify = isNetlify && mode !== "production"
-const minify = noMinify ? { minify: false, minifySyntax: false, minifyCSS: false, minifyJS: false } : {};
+
+const minify = isNetlify && mode === "production"
 
 export default {
   root: "src",
