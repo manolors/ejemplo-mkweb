@@ -1,8 +1,11 @@
 [context.rama_1.environment]
-  MY_APP_VERSION = "wololoooooooooooooocontext2"
+  MY_APP_VERSION = "wololoooooooooooooocontext"
 
 [dev.environment]
-  MY_APP_VERSION = "wololoooooooooooooodev2"
+  MY_APP_VERSION = "wololoooooooooooooodev"
 
 [build]
-  MY_APP_VERSION = "wololoooooooooooooobuild2"
+  MY_APP_VERSION = "wololoooooooooooooobuild"
+
+[[plugins]]
+  package = "netlify-plugin-bundle-env"
