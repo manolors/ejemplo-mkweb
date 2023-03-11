@@ -6,10 +6,8 @@ const base = mode === "production" && isGitHubPages ? "/" + folderName : "/";
 
 // Configuración para detectar que estamos en netlify
 const isNetlify = process.env.NETLIFY || false;
-const minify = isNetlify && mode === "production"
+const minify = isNetlify && mode === "production";
 
-console.log("nODE VERSION:", import.meta.env.NODE_ENV);
-console.log("APP VERSION:", import.meta.env.MY_APP_VERSION);
 export default {
   root: "src",
   base,
